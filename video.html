@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zeytinyağı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+        <div class="box box1">
+            <div class="content">
+                <h1>slide one</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta architecto aspe
+                    riores dolorem iure doloremque id commodi porro alias persp</p>
+            </div>
+        </div>
+    <div class="box box2">
+        <div class="content">
+            <h2>slide two</h2>
+            <input placeholder="kullanıcı adı" value= > 
+    
+            <br> <br>
+            <input placeholder="parola"  type="password" >
+        </div>
+    </div>
+    <div class="box box3">
+        <div class="content">
+            <h2>slide three</h2>
+        </div>
+    </div>
+ </div>
+ <script>
+     let box = document.querySelectorAll('.box');
+     box.forEach(popup => popup.addEventListener('click', () => {
+         popup.classList.toggle('active')
+     }))
+ </script>
+</body>
+</html>
